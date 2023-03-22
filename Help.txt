@@ -1,0 +1,91 @@
+Guía de instalación y conceptos básicos
+    - https://www.python.org/downloads/
+    - https://brew.sh/
+    - https://www.python.org/dev/peps/pep-0008/
+
+Tipos de datos
+    - Enteros (int)
+    - Booleanos (bool)
+    - Cadenas (str)
+    - Listas
+    - Diccionarios
+    - Tuplas
+
+Funciones
+    - def nombre_de_la_función(parametros)
+
+Operadores Comunes
+    - sorted
+    - dir(Variable)
+    - help(sorted) 
+
+Docs
+    - https://drive.google.com/file/d/1uAC0egE_U6571mV8gHtHq5ahIbo9vd1e/view?usp=sharing
+    - https://github.com/platzi/curso_Python3/branches    
+
+¿Qué es la programación?
+    - Es una disciplina que combina parte de otras disciplinas como las Matemáticas, Ingeniería y la Ciencia. Sin embargo, la habilidad más importante es resolver problemas. Es lo que harás todos los días como programador o programadora.
+
+¿Por qué programar con Python?
+    - Python es uno de los mejores lenguajes para principiantes porque tiene una sintaxis clara, una gran comunidad y esto hace que el lenguaje sea muy amigable para los que están iniciando.
+
+Operadores matemáticos
+    //: Es división de entero, básicamente tiramos la parte decimal
+    %: Es el residuo de la división, lo que te sobra.
+    **: Exponente
+
+Variables y expresiones
+    - Una variable es simplemente el contenedor de un valor.
+    - Reglas de Variables:
+        Pueden contener números y letras
+        No deben comenzar con número
+        Múltiples palabras se unen con _
+        No se pueden utilizar palabras reservadas    
+
+Funciones 
+    En el contexto de la programación las funciones son simplemente una agrupación de enunciados(statments) que tienen un nombre. 
+
+Operadores lógicos
+    - https://platzi.com/clases/discretas/
+
+Strings en Python   
+    - id(variable) => Valor en memoria
+
+Operaciones con Strings en Python
+    - upper: convierte todo el string a mayúsculas
+    - lower: convierte todo el string a minúsculas
+    - find: encuentra el indice en donde existe un patrón que nosotros definimos
+    - startswith: significa que empieza con algún patrón.
+    - endswith: significa que termina con algún patrón
+    - capitalize: coloca la primera letra en mayúscula y el resto en minúscula
+    - dir(variable) => Todas las build functions que podemos hacer sobre la variable
+    - """ documentacion """ -> help(function)
+
+Operaciones con strings: Slices en python
+    - Slices en español significa ““rebanada””
+    - secuencia[comienzo:final:pasos]    
+    
+For loops
+    - Tienen dos keywords break y continue que nos permiten salir anticipadamente de la iteración
+    - Se usan cuando se quiere ejecutar varias veces una o varias instrucciones.
+    - for [variable] in [secuencia]:
+
+While loops
+    - Al igual que las for loops, las while loops nos sirve para iterar, pero las for loops nos sirve para iterar a lo largo de una secuencia mientras que las while loops nos sirve para iterar mientras una condición sea verdadera.
+
+Iterators and generators
+    - Uso de yield
+
+Uso de listas
+    - Las listas son una secuencia de valores. 
+    - import copy -> new_list = copy.copy(list)
+
+Operaciones con listas
+    - append nos permite añadir elementos a listas. Cambia el tamaño de la lista.
+    - pop nos permite sacar el último elemento de la lista. También recibe un índice y esto nos permite elegir qué elemento queremos eliminar.
+    - sort modifica la propia lista y ordenarla de mayor a menor. Existe otro método llamado sorted, que también ordena la lista, pero genera una nueva instancia de la lista
+    - del nos permite eliminar elementos vía indices, funciona con slices
+    - remove nos permite es pasarle un valor para que Python compare internamente los valores y determina cuál de ellos hace match o son iguales para eliminarlos.
+
+Agregando listas a nuestro proyecto
+    - 

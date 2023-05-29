@@ -116,4 +116,27 @@ Tuplas y conjuntos en código
     - 
 
 Introducción al módulo collections
-    -     
+    - collections.UserDict
+    - collections.UserList
+    - collections.UserString    
+    - collections.NamedTuple
+
+Python comprehensions
+    - Las Comprehensions son constructos que nos permiten generar una secuencia a partir de otra secuencia.
+    - Existen tres tipos de comprehensions:
+        - List comprehensions
+        - Dictionary comprehensions
+        - Sets comprehensions
+
+Búsquedas binarias
+    - Búsqueda binaria lo único que hace es tratar de encontrar un resultado en una lista ordenada de tal manera que podamos razonar. Si tenemos un elemento mayor que otro, podemos simplemente usar la mitad de la lista cada vez.    
+
+Continuando con las Búsquedas Binarias
+    -      
+
+Manipulación de archivos en Python 3
+    - function open 
+        - mode = read or write
+    - module csv 
+        - csv.reader y csv.writer
+    

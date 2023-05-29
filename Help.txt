@@ -89,3 +89,31 @@ Operaciones con listas
 
 Agregando listas a nuestro proyecto
     - 
+
+Diccionarios
+    - Si queremos ciclar a lo largo de un diccionario tenemos las opciones:
+        keys: nos imprime una lista de las llaves
+        values nos imprime una lista de los valores
+        items. nos manda una lista de tuplas de los valores
+    - dict.get('keyName', None)  -> Evitar KeyError
+
+Agregando diccionarios a nuestro proyecto
+    -      
+
+Tuplas
+    - Tuplas(tuples) son iguales a las listas, la única diferencia es que son inmutables.
+    - Metodos
+        - count: Numero de veces que aparece un elemento
+        - index: Indice donde se encuentra el elemento
+    
+Conjuntos    
+    - Los sets se pueden inicializar con la función set. Una recomendación es inicializarlos con esta función para no causar confusión con los diccionarios.
+        * add nos sirve añadir elementos.
+        * remove nos permite eliminar elementos.
+    - Son mutables
+
+Tuplas y conjuntos en código    
+    - 
+
+Introducción al módulo collections
+    -     

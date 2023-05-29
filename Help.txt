@@ -1,142 +1,156 @@
-Guía de instalación y conceptos básicos
-    - https://www.python.org/downloads/
-    - https://brew.sh/
-    - https://www.python.org/dev/peps/pep-0008/
+Básicos del Lenguaje
 
-Tipos de datos
-    - Enteros (int)
-    - Booleanos (bool)
-    - Cadenas (str)
-    - Listas
-    - Diccionarios
-    - Tuplas
+    Guía de instalación y conceptos básicos
+        - https://www.python.org/downloads/
+        - https://brew.sh/
+        - https://www.python.org/dev/peps/pep-0008/
 
-Funciones
-    - def nombre_de_la_función(parametros)
+    Tipos de datos
+        - Enteros (int)
+        - Booleanos (bool)
+        - Cadenas (str)
+        - Listas
+        - Diccionarios
+        - Tuplas
 
-Operadores Comunes
-    - sorted
-    - dir(Variable)
-    - help(sorted) 
+    Funciones
+        - def nombre_de_la_función(parametros)
 
-Docs
-    - https://drive.google.com/file/d/1uAC0egE_U6571mV8gHtHq5ahIbo9vd1e/view?usp=sharing
-    - https://github.com/platzi/curso_Python3/branches    
+    Operadores Comunes
+        - sorted
+        - dir(Variable)
+        - help(sorted) 
 
-¿Qué es la programación?
-    - Es una disciplina que combina parte de otras disciplinas como las Matemáticas, Ingeniería y la Ciencia. Sin embargo, la habilidad más importante es resolver problemas. Es lo que harás todos los días como programador o programadora.
+    Docs
+        - https://drive.google.com/file/d/1uAC0egE_U6571mV8gHtHq5ahIbo9vd1e/view?usp=sharing
+        - https://github.com/platzi/curso_Python3/branches    
 
-¿Por qué programar con Python?
-    - Python es uno de los mejores lenguajes para principiantes porque tiene una sintaxis clara, una gran comunidad y esto hace que el lenguaje sea muy amigable para los que están iniciando.
+    ¿Qué es la programación?
+        - Es una disciplina que combina parte de otras disciplinas como las Matemáticas, Ingeniería y la Ciencia. Sin embargo, la habilidad más importante es resolver problemas. Es lo que harás todos los días como programador o programadora.
 
-Operadores matemáticos
-    //: Es división de entero, básicamente tiramos la parte decimal
-    %: Es el residuo de la división, lo que te sobra.
-    **: Exponente
+    ¿Por qué programar con Python?
+        - Python es uno de los mejores lenguajes para principiantes porque tiene una sintaxis clara, una gran comunidad y esto hace que el lenguaje sea muy amigable para los que están iniciando.
 
-Variables y expresiones
-    - Una variable es simplemente el contenedor de un valor.
-    - Reglas de Variables:
-        Pueden contener números y letras
-        No deben comenzar con número
-        Múltiples palabras se unen con _
-        No se pueden utilizar palabras reservadas    
+    Operadores matemáticos
+        //: Es división de entero, básicamente tiramos la parte decimal
+        %: Es el residuo de la división, lo que te sobra.
+        **: Exponente
 
-Funciones 
-    En el contexto de la programación las funciones son simplemente una agrupación de enunciados(statments) que tienen un nombre. 
+    Variables y expresiones
+        - Una variable es simplemente el contenedor de un valor.
+        - Reglas de Variables:
+            Pueden contener números y letras
+            No deben comenzar con número
+            Múltiples palabras se unen con _
+            No se pueden utilizar palabras reservadas    
 
-Operadores lógicos
-    - https://platzi.com/clases/discretas/
+    Funciones 
+        En el contexto de la programación las funciones son simplemente una agrupación de enunciados(statments) que tienen un nombre. 
 
-Strings en Python   
-    - id(variable) => Valor en memoria
+    Operadores lógicos
+        - https://platzi.com/clases/discretas/
 
-Operaciones con Strings en Python
-    - upper: convierte todo el string a mayúsculas
-    - lower: convierte todo el string a minúsculas
-    - find: encuentra el indice en donde existe un patrón que nosotros definimos
-    - startswith: significa que empieza con algún patrón.
-    - endswith: significa que termina con algún patrón
-    - capitalize: coloca la primera letra en mayúscula y el resto en minúscula
-    - dir(variable) => Todas las build functions que podemos hacer sobre la variable
-    - """ documentacion """ -> help(function)
+Uso de strings y ciclos
 
-Operaciones con strings: Slices en python
-    - Slices en español significa ““rebanada””
-    - secuencia[comienzo:final:pasos]    
-    
-For loops
-    - Tienen dos keywords break y continue que nos permiten salir anticipadamente de la iteración
-    - Se usan cuando se quiere ejecutar varias veces una o varias instrucciones.
-    - for [variable] in [secuencia]:
+    Strings en Python   
+        - id(variable) => Valor en memoria
 
-While loops
-    - Al igual que las for loops, las while loops nos sirve para iterar, pero las for loops nos sirve para iterar a lo largo de una secuencia mientras que las while loops nos sirve para iterar mientras una condición sea verdadera.
+    Operaciones con Strings en Python
+        - upper: convierte todo el string a mayúsculas
+        - lower: convierte todo el string a minúsculas
+        - find: encuentra el indice en donde existe un patrón que nosotros definimos
+        - startswith: significa que empieza con algún patrón.
+        - endswith: significa que termina con algún patrón
+        - capitalize: coloca la primera letra en mayúscula y el resto en minúscula
+        - dir(variable) => Todas las build functions que podemos hacer sobre la variable
+        - """ documentacion """ -> help(function)
 
-Iterators and generators
-    - Uso de yield
+    Operaciones con strings: Slices en python
+        - Slices en español significa ““rebanada””
+        - secuencia[comienzo:final:pasos]    
+        
+    For loops
+        - Tienen dos keywords break y continue que nos permiten salir anticipadamente de la iteración
+        - Se usan cuando se quiere ejecutar varias veces una o varias instrucciones.
+        - for [variable] in [secuencia]:
 
-Uso de listas
-    - Las listas son una secuencia de valores. 
-    - import copy -> new_list = copy.copy(list)
+    While loops
+        - Al igual que las for loops, las while loops nos sirve para iterar, pero las for loops nos sirve para iterar a lo largo de una secuencia mientras que las while loops nos sirve para iterar mientras una condición sea verdadera.
 
-Operaciones con listas
-    - append nos permite añadir elementos a listas. Cambia el tamaño de la lista.
-    - pop nos permite sacar el último elemento de la lista. También recibe un índice y esto nos permite elegir qué elemento queremos eliminar.
-    - sort modifica la propia lista y ordenarla de mayor a menor. Existe otro método llamado sorted, que también ordena la lista, pero genera una nueva instancia de la lista
-    - del nos permite eliminar elementos vía indices, funciona con slices
-    - remove nos permite es pasarle un valor para que Python compare internamente los valores y determina cuál de ellos hace match o son iguales para eliminarlos.
+    Iterators and generators
+        - Uso de yield
 
-Agregando listas a nuestro proyecto
-    - 
+Estructuras de Datos
 
-Diccionarios
-    - Si queremos ciclar a lo largo de un diccionario tenemos las opciones:
-        keys: nos imprime una lista de las llaves
-        values nos imprime una lista de los valores
-        items. nos manda una lista de tuplas de los valores
-    - dict.get('keyName', None)  -> Evitar KeyError
+    Uso de listas
+        - Las listas son una secuencia de valores. 
+        - import copy -> new_list = copy.copy(list)
 
-Agregando diccionarios a nuestro proyecto
-    -      
+    Operaciones con listas
+        - append nos permite añadir elementos a listas. Cambia el tamaño de la lista.
+        - pop nos permite sacar el último elemento de la lista. También recibe un índice y esto nos permite elegir qué elemento queremos eliminar.
+        - sort modifica la propia lista y ordenarla de mayor a menor. Existe otro método llamado sorted, que también ordena la lista, pero genera una nueva instancia de la lista
+        - del nos permite eliminar elementos vía indices, funciona con slices
+        - remove nos permite es pasarle un valor para que Python compare internamente los valores y determina cuál de ellos hace match o son iguales para eliminarlos.
 
-Tuplas
-    - Tuplas(tuples) son iguales a las listas, la única diferencia es que son inmutables.
-    - Metodos
-        - count: Numero de veces que aparece un elemento
-        - index: Indice donde se encuentra el elemento
-    
-Conjuntos    
-    - Los sets se pueden inicializar con la función set. Una recomendación es inicializarlos con esta función para no causar confusión con los diccionarios.
-        * add nos sirve añadir elementos.
-        * remove nos permite eliminar elementos.
-    - Son mutables
+    Agregando listas a nuestro proyecto
+        - 
 
-Tuplas y conjuntos en código    
-    - 
+    Diccionarios
+        - Si queremos ciclar a lo largo de un diccionario tenemos las opciones:
+            keys: nos imprime una lista de las llaves
+            values nos imprime una lista de los valores
+            items. nos manda una lista de tuplas de los valores
+        - dict.get('keyName', None)  -> Evitar KeyError
 
-Introducción al módulo collections
-    - collections.UserDict
-    - collections.UserList
-    - collections.UserString    
-    - collections.NamedTuple
+    Agregando diccionarios a nuestro proyecto
+        -      
 
-Python comprehensions
-    - Las Comprehensions son constructos que nos permiten generar una secuencia a partir de otra secuencia.
-    - Existen tres tipos de comprehensions:
-        - List comprehensions
-        - Dictionary comprehensions
-        - Sets comprehensions
+    Tuplas
+        - Tuplas(tuples) son iguales a las listas, la única diferencia es que son inmutables.
+        - Metodos
+            - count: Numero de veces que aparece un elemento
+            - index: Indice donde se encuentra el elemento
+        
+    Conjuntos    
+        - Los sets se pueden inicializar con la función set. Una recomendación es inicializarlos con esta función para no causar confusión con los diccionarios.
+            * add nos sirve añadir elementos.
+            * remove nos permite eliminar elementos.
+        - Son mutables
 
-Búsquedas binarias
-    - Búsqueda binaria lo único que hace es tratar de encontrar un resultado en una lista ordenada de tal manera que podamos razonar. Si tenemos un elemento mayor que otro, podemos simplemente usar la mitad de la lista cada vez.    
+    Tuplas y conjuntos en código    
+        - 
 
-Continuando con las Búsquedas Binarias
-    -      
+    Introducción al módulo collections
+        - collections.UserDict
+        - collections.UserList
+        - collections.UserString    
+        - collections.NamedTuple
 
-Manipulación de archivos en Python 3
-    - function open 
-        - mode = read or write
-    - module csv 
-        - csv.reader y csv.writer
-    
+    Python comprehensions
+        - Las Comprehensions son constructos que nos permiten generar una secuencia a partir de otra secuencia.
+        - Existen tres tipos de comprehensions:
+            - List comprehensions
+            - Dictionary comprehensions
+            - Sets comprehensions
+
+    Búsquedas binarias
+        - Búsqueda binaria lo único que hace es tratar de encontrar un resultado en una lista ordenada de tal manera que podamos razonar. Si tenemos un elemento mayor que otro, podemos simplemente usar la mitad de la lista cada vez.    
+
+    Continuando con las Búsquedas Binarias
+        -      
+
+    Manipulación de archivos en Python 3
+        - function open 
+            - mode = read or write
+        - module csv 
+            - csv.reader y csv.writer
+
+Uso de objetos y módulos
+
+    Decoradores
+        - Los decoradores son una función que envuelve a otra función para modificar o extender su comportamiento.
+
+Decoradores en Python
+    - Para usar los decoradores es con el símbolo de @(arroba) y lo colocamos por encima de la función. Es un sugar syntax
+    - [args wargs] son los argumentos que tienen keywords   

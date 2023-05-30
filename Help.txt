@@ -211,3 +211,5 @@ Uso de objetos y módulos
     Interface de actualización
         - pv clients update e16c6d73-f0aa-4743-8504-33cd905ad4a0
 
+    Manejo de errores y jerarquía de errores en Python
+        - 

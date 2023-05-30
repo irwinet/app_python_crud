@@ -205,3 +205,9 @@ Uso de objetos y módulos
     Interface de create: Comunicación entre servicios y el cliente
         - pv clients list
 
+    Actualización de cliente
+        - 
+    
+    Interface de actualización
+        - pv clients update e16c6d73-f0aa-4743-8504-33cd905ad4a0
+

@@ -203,5 +203,5 @@ Uso de objetos y módulos
         - pv clients create
 
     Interface de create: Comunicación entre servicios y el cliente
-        - 
+        - pv clients list
 

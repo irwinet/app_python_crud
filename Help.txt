@@ -151,6 +151,37 @@ Uso de objetos y módulos
     Decoradores
         - Los decoradores son una función que envuelve a otra función para modificar o extender su comportamiento.
 
-Decoradores en Python
-    - Para usar los decoradores es con el símbolo de @(arroba) y lo colocamos por encima de la función. Es un sugar syntax
-    - [args wargs] son los argumentos que tienen keywords   
+    Decoradores en Python
+        - Para usar los decoradores es con el símbolo de @(arroba) y lo colocamos por encima de la función. Es un sugar syntax
+        - [args wargs] son los argumentos que tienen keywords   
+
+    ¿Qué es la programación orientada a objetos?
+        - La programación orientada a objetos es un paradigma de programación que otorga los medios para estructurar programas de tal manera que las propiedades y comportamientos estén envueltos en objetos individuales.
+
+        - Para poder entender cómo modelar estos objetos tenemos que tener claros cuatro principios:
+            - Encapsulamiento
+            - Abstracción
+            - Herencia
+            - Polimorfismo
+
+    Programación orientada a objetos en Python
+        - Para declarar una clase en Python utilizamos la keyword class
+        - Un método fundamental es dunder init(__init__). Lo único que hace es inicializar la clase basado en los parámetros que le damos al momento de construir la clase.
+        - self es una referencia a la clase. Es una forma internamente para que podamos acceder a las propiedades y métodos.
+
+    Scopes and namespaces
+        - un namespace es simplemente un conjunto de names.
+        - Scope es la parte del programa en el que podemos tener acceso a un namespace sin necesidad de prefijos.
+        - En cualquier momento determinado, el programa tiene acceso a tres scopes:
+            - El scope dentro de una función (que tiene nombres locales)
+            - El scope del módulo (que tiene nombres globales)
+            - El scope raíz (que tiene los built-in names)
+        - Para poder manipular una variable que se encuentra fuera del scope local podemos utilizar los keywords global y nonlocal.
+
+    Introducción a Click
+        - Click es un pequeño framework que nos permite crear aplicaciones de Línea de comandos. Tiene cuatro decoradores básicos:
+            - @click_group: Agrupa una serie de comandos
+            - @click_command: Aca definiremos todos los comandos de nuestra apliacion
+            - @click_argument: Son parámetros necesarios
+            - @click_option: Son parámetros opcionales
+            

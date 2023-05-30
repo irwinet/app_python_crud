@@ -184,4 +184,18 @@ Uso de objetos y módulos
             - @click_command: Aca definiremos todos los comandos de nuestra apliacion
             - @click_argument: Son parámetros necesarios
             - @click_option: Son parámetros opcionales
-            
+    
+    Definición a la API pública
+        - la configuración en nuestro setup.py y la instalaremos en nuestro entorno virtual con pip
+        - Commands
+            - pip install virtualenv
+            - virtualenv --python=python venv
+            - source venv/Scripts/activate
+            - pip install --editable .
+                - which pv
+                - pv --help
+                - pv clients --help
+
+    Clients
+        - 
+

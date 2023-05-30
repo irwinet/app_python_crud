@@ -197,5 +197,11 @@ Uso de objetos y módulos
                 - pv clients --help
 
     Clients
+        - @staticmethod nos permite declarar métodos estáticos en nuestra clase. Es un método que se puede ejecutar sin necesidad de una instancia de una clase. No hace falta que reciba self como parámetro.
+
+    Servicios: Lógica de negocio de nuestra aplicación
+        - pv clients create
+
+    Interface de create: Comunicación entre servicios y el cliente
         - 
 

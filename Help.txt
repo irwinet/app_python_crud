@@ -195,6 +195,7 @@ Uso de objetos y módulos
                 - which pv
                 - pv --help
                 - pv clients --help
+            - deactivate
 
     Clients
         - @staticmethod nos permite declarar métodos estáticos en nuestra clase. Es un método que se puede ejecutar sin necesidad de una instancia de una clase. No hace falta que reciba self como parámetro.
@@ -212,4 +213,45 @@ Uso de objetos y módulos
         - pv clients update e16c6d73-f0aa-4743-8504-33cd905ad4a0
 
     Manejo de errores y jerarquía de errores en Python
-        - 
+        - Para ““aventar”” un error en Python utilizamos la palabra raise
+        - Podemos generar nuestros propios errores creando una clase que extienda de BaseException
+        - try: significa que se ejecuta este código. Si es posible, solo ponemos una sola línea de código ahí como buena práctica
+        - except: es nuestro manejo del error, es lo que haremos si ocurre el error. Debemos ser específicos con el tipo de error que vamos a atrapar.
+        - else: Es código que se ejecuta cuando no ocurre ningún error.
+        - finally: Nos permite obtener un bloque de código que se va a ejecutar sin importar lo que pase.
+
+    Context managers
+        - Los context managers son objetos de Python que proveen información contextual adicional al bloque de código.
+        - Existen dos formas de implementar un context manager: con una clase o con un generador
+    
+    Aplicaciones de Python en el mundo real
+        - En CLI por si te gusta trabajar en la nube y con datacenters, para sincronizar miles de computadoras:    
+            aws
+            gcloud
+            rebound
+            geeknote
+        
+        - Aplicaciones Web:
+            Django
+            Flask
+            Bottle
+            Chalice
+            Webapp2
+            Gunicorn
+            Tornado
+
+    Python 2 vs 3 (Conclusiones)
+        - PEP = Python Enhancement Proposals
+        - Los PEP son la forma en la que se define como avanza el lenguaje. Existen tres PEPs que debes saber.
+            - PEP8 es la guía de estilo de cómo escribir programas de Python. Es importante escribir de manera similiar para que nuestro software sea legible para el resto de la comunidad
+            - PEP257 nos explica cómo generar buena documentación en nuestro código
+            - PEP20: import this
+
+    Entorno Virtual en Python y su importancia: Python en el mundo real
+        - PyPi (python package index) es un repositorio de paquetes de terceros que se pueden utilizar en proyecto de python
+        - pip install paquete 
+        - Agrupar varios paquetes con requirements.txt 
+        - Usar ambientes virtuales
+            - Es una buena practica crear un ambiente virtual por cada proyecto de Python en el que se trabaje
+            - Esto evita conflictos de paquetes en el interprete principal
+            

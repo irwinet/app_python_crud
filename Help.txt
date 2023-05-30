@@ -254,4 +254,14 @@ Uso de objetos y módulos
         - Usar ambientes virtuales
             - Es una buena practica crear un ambiente virtual por cada proyecto de Python en el que se trabaje
             - Esto evita conflictos de paquetes en el interprete principal
-            
+        - Pip
+            - which pip
+            - pip install virtualenv
+            - mkdir servidor
+            - virtualenv venv
+            - source venv/Scripts/activate 
+                - pip freeze
+                - pip install flask
+            - touch requirements.txt
+            - pip install -r requirements.txt
+
